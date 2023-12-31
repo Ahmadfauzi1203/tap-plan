@@ -7,7 +7,7 @@ const HomePage = () => {
       <BannerComponent />
       {/* highlight */}
       <section id="highlight" className=" d-flex justify-content-center gap-5">
-        <div className="card text-center">
+        <div className="card text-center card-1">
           <span>
             <img src="/sus.png" alt="" />
           </span>
@@ -17,7 +17,7 @@ const HomePage = () => {
             achieve shared goals, mainly supporting the achievement.
           </p>
         </div>
-        <div className="card text-center">
+        <div className="card text-center card-2">
           <span>
             <img src="/ope.png" alt="" />
           </span>
@@ -28,7 +28,7 @@ const HomePage = () => {
             the Financial Highlight.
           </p>
         </div>
-        <div className="card text-center">
+        <div className="card text-center card-3">
           <span>
             <img src="/agri.png" alt="" />
           </span>
@@ -87,13 +87,23 @@ const HomePage = () => {
       {/* Highlight2 */}
       <section id="highlight2">
         <div className="row">
-          <div className="col col-lg-6 contribute">
-            <h3>CONTRIBUTE TO ECONOMY & SOCIAL ENVIRONMENT</h3>
-            <button className="btn btn-contribute">view our Story</button>
+          <div className="col-lg-6 contribute">
+            <img src="/contribute.jpg" alt="" />
+            <div className="title">
+              <h3>CONTRIBUTE TO ECONOMY & SOCIAL ENVIRONMENT</h3>
+              <div>
+                <button className="btn btn-contribute">view our Story</button>
+              </div>
+            </div>
           </div>
-          <div className="col col-lg-6 delivering">
-            <h3>DELIVERING SUSTAINABLE PRINCIPLES</h3>
-            <button className="btn btn-delivering">view our Story</button>
+          <div className="col-lg-6 delivering">
+            <img src="/deliver.jpg" alt="" />
+            <div className="title">
+              <h3>DELIVERING SUSTAINABLE PRINCIPLES</h3>
+              <div>
+                <button className="btn btn-delivering">view our Story</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -158,16 +168,16 @@ const HomePage = () => {
 
       {/* contact us */}
       <section id="contact">
-        <div className="row">
+        <div className="row parralax">
           <div className="col-lg-5">
             <div className="mx-auto my-auto">
-              <h3>Contact Us</h3>
+              <h2>Contact Us</h2>
               <p>We will reach you soon Please Fill This For​​m</p>
             </div>
           </div>
-          <div className="col-lg-7 ">
+          <div className="col-lg-7">
             <form action="#" method="post">
-              <div className="d-flex flex-column ">
+              <div className="wrapper ">
                 <input
                   type="text"
                   name="name"
@@ -184,17 +194,12 @@ const HomePage = () => {
                   name="messages"
                   id="messages"
                   cols="30"
-                  rows="10"
+                  rows="5"
                   className="mb-3"
                   placeholder="Messages"
                 ></textarea>
                 <div>
-                  <button
-                    type="submit"
-                    href="#"
-                    className="btn btn-success"
-                    name="submit"
-                  >
+                  <button type="submit" href="#" className="btn" name="submit">
                     Submit
                   </button>
                 </div>

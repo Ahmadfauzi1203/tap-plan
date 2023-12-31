@@ -12,21 +12,42 @@ const BannerComponent = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
           <img src="img/banner/NEWS-21-21.jpg" alt="" />
+          <div className="title">
+            <div className="line"></div>
+            <h1>
+              Mayong Merapun Forest Multifunctional Conservation Area
+              PreviousNext SUSTAINABILITY
+            </h1>
+            <div>
+              <a href="#" className="btn">
+                Learn More
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src="img/banner/WEBSITE_III_Bisnis_Indonesia-25-25.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="img/banner/WEBSITE_III_news-22.jpg" alt="" />
+          <div className="title">
+            <div className="line"></div>
+            <h1>
+              Mayong Merapun Forest Multifunctional Conservation Area
+              PreviousNext SUSTAINABILITY
+            </h1>
+            <div>
+              <a href="#" className="btn">
+                Learn More
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
