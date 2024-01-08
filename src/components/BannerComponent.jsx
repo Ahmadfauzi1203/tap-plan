@@ -6,27 +6,24 @@ const BannerComponent = () => {
   return (
     <div id="banner">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         // pagination={{
         //   clickable: true,
         // }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="img/banner/NEWS-21-21.jpg" alt="" />
+          <img src="img/banner/slider-1.jpg" alt="" />
           <div className="title">
             <div className="line"></div>
-            <h1>
-              Mayong Merapun Forest Multifunctional Conservation Area
-              PreviousNext SUSTAINABILITY
-            </h1>
+            <h1>Green Plantation for Better Quality of Life PreviousNext</h1>
             <div>
               <a href="#" className="btn">
                 Learn More
@@ -35,13 +32,10 @@ const BannerComponent = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="img/banner/WEBSITE_III_Bisnis_Indonesia-25-25.jpg" alt="" />
+          <img src="img/banner/slider-2.jpg" alt="" />
           <div className="title">
             <div className="line"></div>
-            <h1>
-              Mayong Merapun Forest Multifunctional Conservation Area
-              PreviousNext SUSTAINABILITY
-            </h1>
+            <h1>Mayong Merapun Forest Multifunctional Conservation Area</h1>
             <div>
               <a href="#" className="btn">
                 Learn More

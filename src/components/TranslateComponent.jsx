@@ -4,14 +4,17 @@ import {} from "react-bootstrap";
 const TranslateComponent = () => {
   return (
     <div id="container-translate">
-      <div className="d-flex">
-        <p className="fw-bold me-2">TAPG</p>
-        <p>IDR -10.00 (1.82%)</p>
+      <div className="wrapper animate__animated animate__fadeInUp animate__delay-1s">
+        <a href="/investor" className="index">
+          <p className="inisial">TAPG</p>
+          <p className="value">IDR &minus;10.00 (1.82%)</p>
+        </a>
       </div>
-      <div className="d-flex">
+      <div className="language d-flex animate__animated animate__fadeInUp animate__delay-1s">
         <a href="#" className="translate">
           <p>
-            <span>ID</span> | <span>EN</span>
+            <span className="id">ID&#xA0;</span>&#124;
+            <span className="en">&#xA0;EN</span>
           </p>
         </a>
       </div>

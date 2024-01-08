@@ -1,7 +1,7 @@
 import React from "react";
 
 const SustainabilityPage = () => {
-  return <div>SustainabilityPage</div>;
+  return <div className="fw-bold">SustainabilityPage</div>;
 };
 
 export default SustainabilityPage;
