@@ -61,7 +61,10 @@ const NavbarComponent = () => {
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <header>Company Overview</header>
+                    <header>
+                      <i className="fa-solid fa-building me-2"></i>Company
+                      Overview
+                    </header>
                     <ul className="mega-links">
                       <li>
                         <a href="/about-us">About Us</a>
@@ -75,7 +78,10 @@ const NavbarComponent = () => {
                     </ul>
                   </div>
                   <div className="col-lg-3">
-                    <header>Profile Management</header>
+                    <header>
+                      <i className="fa-solid fa-briefcase me-2"></i>Profile
+                      Management
+                    </header>
                     <ul className="mega-links">
                       <li>
                         <a href="/about/founders">Founders</a>
@@ -107,7 +113,7 @@ const NavbarComponent = () => {
               </a>
               <input type="checkbox" id="showInvestor" name="showInvestor" />
               <label htmlFor="showInvestor" className="mobile-item ">
-                investor <i className="fa-solid fa-caret-down"></i>
+                investor <i className="fa-solid fa-caret-down me-2"></i>
               </label>
               <div className="mega-box">
                 <div className="row">
@@ -128,7 +134,10 @@ const NavbarComponent = () => {
                     </div>
                   </div>
                   <div className="col-lg-3">
-                    <header>Investor Relation</header>
+                    <header>
+                      <i class="fa-solid fa-handshake me-2"></i>Investor
+                      Relation
+                    </header>
                     <ul className="mega-links">
                       <li>
                         <a href="/investor/annual-report">Annual report</a>
@@ -142,7 +151,10 @@ const NavbarComponent = () => {
                     </ul>
                   </div>
                   <div className="col-lg-3">
-                    <header>Corporate</header>
+                    <header>
+                      <i class="fa-solid fa-diagram-project me-2"></i>
+                      Corporate
+                    </header>
                     <ul className="mega-links">
                       <li>
                         <a href="#">Corporate Action</a>
