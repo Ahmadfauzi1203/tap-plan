@@ -18,11 +18,14 @@ const HomePage = () => {
             <div className="icon">
               <img src="/sus.png" alt="" />
             </div>
-            <h5 className="fw-bold text-uppercase my-2">Sustainability</h5>
-            <p data-aos="zoom-in">
-              TAPG sees the importance of collaboration with other stakeholders
-              to achieve shared goals, mainly supporting the achievement.
-            </p>
+            <div className="card-body" data-aos="zoom-in">
+              <h5 className="fw-bold text-uppercase my-2">Sustainability</h5>
+              <p>
+                TAPG sees the importance of collaboration with other
+                stakeholders to achieve shared goals, mainly supporting the
+                achievement.
+              </p>
+            </div>
           </div>
           <div
             className="card text-center"
@@ -33,12 +36,14 @@ const HomePage = () => {
             <div className="icon">
               <img src="/ope.png" alt="" />
             </div>
-            <h5 className="fw-bold text-uppercase my-2">Operational</h5>
-            <p data-aos="zoom-in">
-              An overview of the development operational activities can be found
-              at Investor Newsletter and for the Financial Report can be found
-              at the Financial Highlight.
-            </p>
+            <div className="card-body" data-aos="zoom-in">
+              <h5 className="fw-bold text-uppercase my-2">Operational</h5>
+              <p>
+                An overview of the development operational activities can be
+                found at Investor Newsletter and for the Financial Report can be
+                found at the Financial Highlight.
+              </p>
+            </div>
           </div>
           <div
             className="card text-center"
@@ -49,12 +54,14 @@ const HomePage = () => {
             <div className="icon">
               <img src="/agri.png" alt="" />
             </div>
-            <h5 className="fw-bold text-uppercase my-2">Agritech</h5>
-            <p data-aos="zoom-in">
-              An overview of the development operational activities can be found
-              at Investor Newsletter and for the Financial Report can be found
-              at the Financial Highlight.
-            </p>
+            <div className="card-body" data-aos="zoom-in">
+              <h5 className="fw-bold text-uppercase my-2">Agritech</h5>
+              <p>
+                Communication constitutes the most important thing in business
+                operation, particularly in the coordination among all
+                subsidiaries.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -64,15 +71,15 @@ const HomePage = () => {
         <div className="row">
           <div
             className="col-lg-6 img"
-            data-aos="fade-right"
-            data-aos-duration="1000"
+            // data-aos="fade-right"
+            // data-aos-duration="1000"
           >
             <img src="SEJARAH.jpg" alt="" className="img-fluid" />
           </div>
           <div
             className="col-lg-6 desc"
-            data-aos="fade-left"
-            data-aos-duration="1000"
+            // data-aos="fade-left"
+            // data-aos-duration="1000"
           >
             <h2 className="text-uppercase">About Us</h2>
             <div></div>
@@ -115,26 +122,26 @@ const HomePage = () => {
       {/* Highlight2 */}
       <section id="highlight2">
         <div className="row">
-          <div
-            className="col-lg-6 contribute"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div className="col-lg-6 contribute">
             <img src="/contribute.jpg" alt="" />
-            <div className="title">
+            <div
+              className="title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h3>CONTRIBUTE TO ECONOMY & SOCIAL ENVIRONMENT</h3>
               <div>
                 <button className="btn btn-contribute">view our Story</button>
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-6 delivering"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
+          <div className="col-lg-6 delivering">
             <img src="/deliver.jpg" alt="" />
-            <div className="title">
+            <div
+              className="title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <h3>DELIVERING SUSTAINABLE PRINCIPLES</h3>
               <div>
                 <button className="btn btn-delivering">view our Story</button>
