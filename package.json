@@ -2,7 +2,7 @@
   "name": "rancangtap",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Ahmadfauzi1203/tap-agri-plan.github.io",
+ 
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -21,6 +21,7 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
+    "react-ts-tradingview-widgets": "^1.2.3",
     "swiper": "^11.0.5"
   },
   "devDependencies": {

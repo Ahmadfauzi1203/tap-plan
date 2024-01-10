@@ -1,6 +1,7 @@
 import React from "react";
 import TradingComponent from "../components/TradingComponents";
 import NewsComponent from "../components/NewsComponent";
+import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 
 const InvestorPage = () => {
   return (
@@ -33,10 +34,17 @@ const InvestorPage = () => {
             Dividen Information
           </a>
         </div>
-        <div className="row">
+        <div className="row mb-5">
           <div className="stock col-lg-6">
             <h5>Stock information</h5>
-            <TradingComponent />
+            <AdvancedRealTimeChart
+              theme="light"
+              symbol="TAPG"
+              width="100%"
+              height="auto"
+              autosize
+            ></AdvancedRealTimeChart>
+            {/* <TradingComponent /> */}
           </div>
           <div className="corp col-lg-6">
             <h5>corporate release</h5>

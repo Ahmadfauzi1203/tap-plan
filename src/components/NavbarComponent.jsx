@@ -135,7 +135,7 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-3">
                     <header>
-                      <i class="fa-solid fa-handshake me-2"></i>Investor
+                      <i className="fa-solid fa-handshake me-2"></i>Investor
                       Relation
                     </header>
                     <ul className="mega-links">
@@ -152,7 +152,7 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-3">
                     <header>
-                      <i class="fa-solid fa-diagram-project me-2"></i>
+                      <i className="fa-solid fa-diagram-project me-2"></i>
                       Corporate
                     </header>
                     <ul className="mega-links">
@@ -179,6 +179,17 @@ const NavbarComponent = () => {
               <a href="/gallery" className="link">
                 Gallery
               </a>
+              <ul className="drop-menu">
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Press Release</a>
+                </li>
+                <li>
+                  <a href="#">Video</a>
+                </li>
+              </ul>
             </li>
           </ul>
           <label htmlFor="menu-btn" className="btn menu-btn">
