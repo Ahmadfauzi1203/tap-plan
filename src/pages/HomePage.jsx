@@ -153,6 +153,7 @@ const HomePage = () => {
 
       {/* News */}
       <NewsComponent />
+
       {/* contact us */}
       <section id="contact">
         <div className="row parralax">

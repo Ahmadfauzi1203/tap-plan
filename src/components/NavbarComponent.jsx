@@ -98,14 +98,119 @@ const NavbarComponent = () => {
               </div>
             </li>
             <li>
-              <a href="/sustainability" className="link">
-                Sustainability
+              <a href="/sustainability" className="link desktop-item">
+                Sustainability <i className="fa-solid fa-caret-down"></i>
               </a>
+              <input
+                type="checkbox"
+                id="showSustainability"
+                name="showSustainability"
+              />
+              <label htmlFor="showSustainability" className="mobile-item ">
+                Sustainability <i className="fa-solid fa-caret-down"></i>
+              </label>
+              <div className="mega-box">
+                <div className="row">
+                  <div className="col-lg-3">
+                    <header>
+                      <i className="fa-solid fa-building me-2"></i>Commitment
+                    </header>
+                    <ul className="mega-links">
+                      <li>
+                        <a href="#">Sustainability Commitment</a>
+                      </li>
+                      <li>
+                        <a href="#">Sustainability Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Sustainability Framework</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-6 policy">
+                    <header>
+                      <i className="fa-solid fa-building me-2"></i>Policy
+                    </header>
+                    <div className="wrapper">
+                      <ul>
+                        <li>
+                          <a href="#">Certification</a>
+                        </li>
+                        <li>
+                          <a href="#">Enviromental Responsibility</a>
+                        </li>
+                        <li>
+                          <a href="#">Corporate Social Responsibility</a>
+                        </li>
+                        <li>
+                          <a href="#">Human Resource</a>
+                        </li>
+                        <li>
+                          <a href="#">Occupational Health and Safety</a>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            Forest and Land Fire Control Task Force
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">Prosperous Fire-Free Village</a>
+                        </li>
+                        <li>
+                          <a href="#">Partnership</a>
+                        </li>
+                        <li>
+                          <a href="#">Social Management</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-lg-3">
+                    <header>
+                      <i className="fa-solid fa-briefcase me-2"></i>Grievance
+                    </header>
+                    <ul className="mega-links">
+                      <li>
+                        <a href="/about/founders">Grievance Handling</a>
+                      </li>
+                      <li>
+                        <a href="#">Grievance Form</a>
+                      </li>
+                      <li>
+                        <a href="#">Grievance List</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
             <li>
-              <a href="/operational" className="link">
-                Operational
+              <a href="/operational" className="link desktop-item">
+                Operational <i className="fa-solid fa-caret-down"></i>
               </a>
+              <input
+                type="checkbox"
+                id="showOperational"
+                name="showOperational"
+              />
+              <label htmlFor="showOperational" className="mobile-item">
+                Operational <i className="fa-solid fa-caret-down"></i>
+              </label>
+              <ul className="drop-menu">
+                <li>
+                  <a href="#">
+                    <i className="fa-solid fa-map"></i> <p>Map</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa-solid fa-bottle-droplet"></i>
+                    <p>Product</p>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="/investor" className="link desktop-item">
@@ -113,7 +218,7 @@ const NavbarComponent = () => {
               </a>
               <input type="checkbox" id="showInvestor" name="showInvestor" />
               <label htmlFor="showInvestor" className="mobile-item ">
-                investor <i className="fa-solid fa-caret-down me-2"></i>
+                investor <i className="fa-solid fa-caret-down"></i>
               </label>
               <div className="mega-box">
                 <div className="row">
@@ -171,23 +276,51 @@ const NavbarComponent = () => {
               </div>
             </li>
             <li>
-              <a href="/agritech" className="link">
-                Agritech
+              <a href="/agritech" className="link desktop-item">
+                Agritech <i className="fa-solid fa-caret-down"></i>
               </a>
+              <input type="checkbox" id="showAgritech" name="showAgritech" />
+              <label htmlFor="showAgritech" className="mobile-item ">
+                Agritech <i className="fa-solid fa-caret-down"></i>
+              </label>
+              <ul className="drop-menu agritech">
+                <li>
+                  <a href="#" className="d-flex align-items-baseline gap-2 ">
+                    <i className="fa-solid fa-computer"></i>
+                    <p>Information Technology</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="d-flex align-items-baseline gap-2">
+                    <i class="fa-solid fa-leaf"></i>
+                    <p>Precision Agriculture</p>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="/gallery" className="link">
-                Gallery
+              <a href="#" className="link desktop-item">
+                Gallery <i className="fa-solid fa-caret-down"></i>
               </a>
-              <ul className="drop-menu">
+              <input type="checkbox" id="showGallery" name="showGallery" />
+              <label htmlFor="showGallery" className="mobile-item ">
+                Gallery <i className="fa-solid fa-caret-down me-2"></i>
+              </label>
+              <ul className="drop-menu gallery">
                 <li>
-                  <a href="#">News</a>
+                  <a href="/gallery/news">
+                    <i className="fa-solid fa-newspaper"></i> <p>News</p>
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Press Release</a>
+                  <a href="gallery/press">
+                    <i className="fa-solid fa-camera"></i> <p>Press Release</p>
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Video</a>
+                  <a href="/gallery/video">
+                    <i className="fa-solid fa-film"></i> <p>Video</p>
+                  </a>
                 </li>
               </ul>
             </li>

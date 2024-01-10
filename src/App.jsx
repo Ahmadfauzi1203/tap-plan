@@ -16,6 +16,7 @@ import FoundersPage from "./pages/subpages/FoundersPage";
 import AboutUsPage from "./pages/subpages/AboutUsPage";
 import DnaPage from "./pages/subpages/DnaPage";
 import AnnualReportPage from "./pages/subpages/AnnualReportPage";
+// import NewsPage from "./pages/subpages/NewsPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/about/about-us" Component={AboutUsPage} />
         <Route path="/about/dna-triputra" Component={DnaPage} />
         <Route path="/about/founders" Component={FoundersPage} />
+        {/* <Route path="/gallery/news-page" Component={NewsPage} /> */}
 
         <Route path="/investor/annual-report" Component={AnnualReportPage} />
       </Routes>

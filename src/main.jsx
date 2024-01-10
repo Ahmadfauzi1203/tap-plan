@@ -14,6 +14,7 @@ import "./assets/dist/css/page/investor.css";
 import "./assets/dist/css/subpage/annual-report.css";
 import "./assets/dist/css/subpage/founders.css";
 import "./assets/dist/css/subpage/dna.css";
+import "./assets/dist/css/subpage/news.css";
 
 import "animate.css";
 import AOS from "aos";
