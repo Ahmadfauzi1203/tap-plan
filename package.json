@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/Ahmadfauzi1203/tap-plan",
   "name": "rancangtap",
   "private": true,
   "version": "0.0.0",
- 
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
