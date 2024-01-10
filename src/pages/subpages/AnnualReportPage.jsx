@@ -8,7 +8,7 @@ const AnnualReportPage = () => {
         <div className="card">
           <div className="card-body">
             <img
-              src="/img/annual-report/AR-2020.jpeg"
+              src="../img/annual-report/AR-2020.jpeg"
               alt=""
               className="img-fluid"
             />
@@ -24,7 +24,7 @@ const AnnualReportPage = () => {
         <div className="card" style={{ width: "600px" }}>
           <div className="card-body">
             <img
-              src="/img/annual-report/AR-2021.jpeg"
+              src="../img/annual-report/AR-2021.jpeg"
               alt=""
               className="img-fluid"
             />
@@ -40,7 +40,7 @@ const AnnualReportPage = () => {
         <div className="card" style={{ width: "600px" }}>
           <div className="card-body">
             <img
-              src="/img/annual-report/AR-2022.png"
+              src="../img/annual-report/AR-2022.png"
               alt=""
               className="img-fluid"
             />

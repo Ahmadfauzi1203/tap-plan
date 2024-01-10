@@ -11,7 +11,7 @@ const NewsComponent = () => {
           data-aos-duration="1000"
           data-aos-delay="600"
         >
-          <img src="/img/news/news1.jpg" alt="" className="card-img-top " />
+          <img src="../img/news/news1.jpg" alt="" className="card-img-top " />
           <div className="card-body" data-aos="zoom-in" data-aos-delay="700">
             <h5>TRIPUTRA AGRO (TAPG) GELONTORKAN DIVIDEN RP 754 MILIAR</h5>
             <p>
@@ -37,7 +37,7 @@ const NewsComponent = () => {
           data-aos-duration="1000"
           data-aos-delay="800"
         >
-          <img src="/img/news/news1.jpg" alt="" className="card-img-top " />
+          <img src="../img/news/news1.jpg" alt="" className="card-img-top " />
           <div className="card-body" data-aos="zoom-in" data-aos-delay="900">
             <h5>TRIPUTRA AGRO (TAPG) GELONTORKAN DIVIDEN RP 754 MILIAR</h5>
             <p>
@@ -63,7 +63,7 @@ const NewsComponent = () => {
           data-aos-duration="1000"
           data-aos-delay="1000"
         >
-          <img src="/img/news/news1.jpg" alt="" className="card-img-top " />
+          <img src="../img/news/news1.jpg" alt="" className="card-img-top " />
           <div className="card-body" data-aos="zoom-in" data-aos-delay="1100">
             <h5>TRIPUTRA AGRO (TAPG) GELONTORKAN DIVIDEN RP 754 MILIAR</h5>
             <p>
