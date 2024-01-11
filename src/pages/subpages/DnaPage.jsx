@@ -26,25 +26,25 @@ const DnaPage = () => {
         </div>
       </div>
 
-      <ul>
-        <li className="integrity">
-          <div>
-            <img src="/img/dna/ICON_INTEGRITY.png" alt="" />
-            <h1>Integrity and Ethics</h1>
-            <h5>“To live a life in honesty and transparency”</h5>
+      <div className="row">
+        <div className="col-lg-6 integrity">
+          <img src="/img/dna/ICON_INTEGRITY.png" alt="" />
+          <div className="wrapper">
+            <h1>INTEGRITY AND ETHICS</h1>
+            <h5>"To live a life in honesty and transparency"</h5>
             <ul>
-              <li>&#8226; Walk the Talk.</li>
-              <li>&#8226; Do not Blame Others.</li>
+              <li>&#8226; Walk the talk.</li>
+              <li>&#8226; Do not blame others.</li>
               <li>&#8226; Do what you have to do, not what you want to do.</li>
               <li>&#8226; Speak by data.</li>
             </ul>
           </div>
-        </li>
-        <li className="excellence">
-          <div>
-            <img src="/img/dna/ICON_EXCELLENCE.png" alt="" />
-            <h1>Excellence</h1>
-            <h5>"To give more than expected under any circumstances”</h5>
+        </div>
+        <div className="col-lg-6 excellence">
+          <img src="/img/dna/ICON_EXCELLENCE.png" alt="" />
+          <div className="wrapper">
+            <h1>EXCELLENCE</h1>
+            <h5>"To give more than expected under any circumstances"</h5>
             <ul>
               <li>&#8226; Never give up and play to win.</li>
               <li>
@@ -53,24 +53,25 @@ const DnaPage = () => {
               </li>
             </ul>
           </div>
-        </li>
-      </ul>
-      <ul>
-        <li className="compassion">
-          <div>
-            <img src="/img/dna/ICON_COMPASSION.png" alt="" />
-            <h1>Compassion</h1>
-            <h5>"To give humanity a nobler cause than one’s own”</h5>
+        </div>
+      </div>
+
+      <div className="row mb-5">
+        <div className="col-lg-6 compassion">
+          <img src="/img/dna/ICON_COMPASSION.png" alt="" />
+          <div className="wrapper">
+            <h1>COMPASSION</h1>
+            <h5>"To give humanity a nobler cause than one’s own"</h5>
             <ul>
               <li>&#8226; Care with truthful act.</li>
               <li>&#8226; Nurturing for greater good.</li>
             </ul>
           </div>
-        </li>
-        <li className="humility">
-          <div>
-            <img src="/img/dna/ICON_HUMILITY.png" alt="" />
-            <h1>Humility</h1>
+        </div>
+        <div className="col-lg-6 humility">
+          <img src="/img/dna/ICON_HUMILITY.png" alt="" />
+          <div className="wrapper">
+            <h1>HUMILITY</h1>
             <h5>
               "To be a person with humility, openness, and in constant
               improvement"
@@ -80,8 +81,8 @@ const DnaPage = () => {
               <li>&#8226; Express gratitude and appreciations.</li>
             </ul>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   );
 };

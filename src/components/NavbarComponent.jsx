@@ -113,7 +113,7 @@ const NavbarComponent = () => {
                 <div className="row">
                   <div className="col-lg-3">
                     <header>
-                      <i className="fa-solid fa-building me-2"></i>Commitment
+                      <i class="fa-solid fa-hand-fist me-2"></i>Commitment
                     </header>
                     <ul className="mega-links">
                       <li>
@@ -129,7 +129,7 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-6 policy">
                     <header>
-                      <i className="fa-solid fa-building me-2"></i>Policy
+                      <i class="fa-solid fa-file-shield me-2"></i>Policy
                     </header>
                     <div className="wrapper">
                       <ul>
@@ -169,7 +169,8 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-3">
                     <header>
-                      <i className="fa-solid fa-briefcase me-2"></i>Grievance
+                      <i class="fa-solid fa-file-circle-question me-2"></i>
+                      Grievance
                     </header>
                     <ul className="mega-links">
                       <li>
@@ -200,12 +201,12 @@ const NavbarComponent = () => {
               </label>
               <ul className="drop-menu">
                 <li>
-                  <a href="#">
+                  <a href="/operational/map">
                     <i className="fa-solid fa-map"></i> <p>Map</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="/operational/product">
                     <i className="fa-solid fa-bottle-droplet"></i>
                     <p>Product</p>
                   </a>
@@ -213,7 +214,7 @@ const NavbarComponent = () => {
               </ul>
             </li>
             <li>
-              <a href="/investor" className="link desktop-item">
+              <a href="#" className="link desktop-item">
                 investor <i className="fa-solid fa-caret-down"></i>
               </a>
               <input type="checkbox" id="showInvestor" name="showInvestor" />
@@ -232,7 +233,7 @@ const NavbarComponent = () => {
                         the heart of our shareholder relationships.
                       </p>
                       <div>
-                        <a href="#" className="btn">
+                        <a href="/investor" className="btn">
                           Learn More
                         </a>
                       </div>
