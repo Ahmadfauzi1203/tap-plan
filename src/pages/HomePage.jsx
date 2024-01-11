@@ -74,7 +74,7 @@ const HomePage = () => {
             // data-aos="fade-right"
             // data-aos-duration="1000"
           >
-            <img src="SEJARAH.jpg" alt="" className="img-fluid" />
+            <img src="/dist/SEJARAH.jpg" alt="" className="img-fluid" />
           </div>
           <div
             className="col-lg-6 desc"
