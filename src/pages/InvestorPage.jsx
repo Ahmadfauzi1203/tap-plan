@@ -7,7 +7,7 @@ const InvestorPage = () => {
   return (
     <div id="investor-page">
       <section id="hero">
-        <img src="../investor.jpg" alt="" />
+        <img src="/img/investor.jpg" alt="" />
         <div className="title animate__animated animate__fadeInLeft">
           <div className="line"></div>
           <h1>Excellent Plantation For The World</h1>

@@ -5,7 +5,7 @@ const FooterComponents = () => {
     <div id="footer">
       <div className="row ">
         <div className="col address">
-          <img src="/logo-TPAG-White1.svg" alt="" className="img-fluid" />
+          <img src="/img/logo-TPAG-White1.svg" alt="" className="img-fluid" />
           <p>
             The East Building 23rd Floor, Jl. DR Ide Anak Agung Gde Agung Kav.
             E.3.2 No 1, Kuningan Timur, Setiabudi Jakarta 12950 , Indonesia

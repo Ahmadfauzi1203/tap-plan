@@ -23,7 +23,7 @@ const NavbarComponent = () => {
         <div className="wrapper">
           <div className="logo">
             <a href="/">
-              <img src="/logo.png" alt="" className="img-fluid" />
+              <img src="/img/logo.png" alt="" className="img-fluid" />
               PT Triputra Agro Persada TBK
             </a>
           </div>
@@ -44,11 +44,7 @@ const NavbarComponent = () => {
               <div className="mega-box">
                 <div className="row">
                   <div className="col-lg-6">
-                    <img
-                      src="/dist/dropdown.png"
-                      alt=""
-                      className="img-fluid"
-                    />
+                    <img src="/img/dropdown.png" alt="" className="img-fluid" />
                     <div>
                       <header>DNA Triputra</header>
                       <p>
@@ -228,7 +224,7 @@ const NavbarComponent = () => {
               <div className="mega-box">
                 <div className="row">
                   <div className="col-lg-6">
-                    <img src="/investor.jpg" alt="" className="img-fluid" />
+                    <img src="/img/investor.jpg" alt="" className="img-fluid" />
                     <div>
                       <header>Investor Update</header>
                       <p>

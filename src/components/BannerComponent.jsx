@@ -20,7 +20,7 @@ const BannerComponent = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="../img/banner/slider-1.jpg" alt="" />
+          <img src="/img/banner/slider-1.jpg" alt="" />
           <div className="title">
             <div className="line"></div>
             <h1>Green Plantation for Better Quality of Life PreviousNext</h1>
@@ -32,7 +32,7 @@ const BannerComponent = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="../img/banner/slider-2.jpg" alt="" />
+          <img src="/img/banner/slider-2.jpg" alt="" />
           <div className="title">
             <div className="line"></div>
             <h1>Mayong Merapun Forest Multifunctional Conservation Area</h1>

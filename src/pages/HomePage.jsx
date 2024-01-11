@@ -16,7 +16,7 @@ const HomePage = () => {
             data-aos-delay="1100"
           >
             <div className="icon">
-              <img src="../sus.png" alt="" />
+              <img src="/img/sus.png" alt="" />
             </div>
             <div className="card-body" data-aos="zoom-in">
               <h5 className="fw-bold text-uppercase my-2">Sustainability</h5>
@@ -34,7 +34,7 @@ const HomePage = () => {
             data-aos-delay="1200"
           >
             <div className="icon">
-              <img src="../ope.png" alt="" />
+              <img src="/img/ope.png" alt="" />
             </div>
             <div className="card-body" data-aos="zoom-in">
               <h5 className="fw-bold text-uppercase my-2">Operational</h5>
@@ -52,7 +52,7 @@ const HomePage = () => {
             data-aos-delay="1300"
           >
             <div className="icon">
-              <img src="../agri.png" alt="" />
+              <img src="/img/agri.png" alt="" />
             </div>
             <div className="card-body" data-aos="zoom-in">
               <h5 className="fw-bold text-uppercase my-2">Agritech</h5>
@@ -74,7 +74,7 @@ const HomePage = () => {
             // data-aos="fade-right"
             // data-aos-duration="1000"
           >
-            <img src="/dist/SEJARAH.jpg" alt="" className="img-fluid" />
+            <img src="/img/SEJARAH.jpg" alt="" className="img-fluid" />
           </div>
           <div
             className="col-lg-6 desc"
@@ -123,7 +123,7 @@ const HomePage = () => {
       <section id="highlight2">
         <div className="row">
           <div className="col-lg-6 contribute">
-            <img src="../contribute.jpg" alt="" />
+            <img src="/img/contribute.jpg" alt="" />
             <div
               className="title"
               data-aos="fade-right"
@@ -136,7 +136,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="col-lg-6 delivering">
-            <img src="../deliver.jpg" alt="" />
+            <img src="/img/deliver.jpg" alt="" />
             <div
               className="title"
               data-aos="fade-left"
