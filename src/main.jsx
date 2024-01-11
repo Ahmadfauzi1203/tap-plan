@@ -4,18 +4,18 @@ import App from "./App.jsx";
 
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/dist/css/main.css";
-import "./assets/dist/css/swiper.css";
-import "./assets/dist/css/navbar.css";
-import "./assets/dist/css/responsive.css";
-import "./assets/dist/css/animation.css";
+import "./assets/dist/css/Main.css";
+import "./assets/dist/css/Swiper.css";
+import "./assets/dist/css/Navbar.css";
+import "./assets/dist/css/Responsive.css";
+import "./assets/dist/css/Animation.css";
 
-import "./assets/dist/css/page/investor.css";
-import "./assets/dist/css/subpage/annual-report.css";
-import "./assets/dist/css/subpage/founders.css";
-import "./assets/dist/css/subpage/dna.css";
-import "./assets/dist/css/subpage/news.css";
-import "./assets/dist/css/subpage/product.css";
+import "./assets/dist/css/page/Investor.css";
+import "./assets/dist/css/subpage/Annual-report.css";
+import "./assets/dist/css/subpage/Founders.css";
+import "./assets/dist/css/subpage/Dna.css";
+import "./assets/dist/css/subpage/News.css";
+import "./assets/dist/css/subpage/Product.css";
 
 import "animate.css";
 import AOS from "aos";
