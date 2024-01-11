@@ -44,7 +44,11 @@ const NavbarComponent = () => {
               <div className="mega-box">
                 <div className="row">
                   <div className="col-lg-6">
-                    <img src="/dropdown.png" alt="" className="img-fluid" />
+                    <img
+                      src="/dist/dropdown.png"
+                      alt=""
+                      className="img-fluid"
+                    />
                     <div>
                       <header>DNA Triputra</header>
                       <p>
