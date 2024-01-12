@@ -31,7 +31,7 @@ const NewsComponent = () => {
             // data-aos="fade-left"
             // data-aos-delay="700"
           >
-            <a href="#">
+            <a href="/gallery/news/detail">
               Read More <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -62,7 +62,7 @@ const NewsComponent = () => {
             // data-aos="fade-left"
             // data-aos-delay="900"
           >
-            <a href="#">
+            <a href="/gallery/news/detail">
               Read More <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -93,7 +93,7 @@ const NewsComponent = () => {
             // data-aos="fade-left"
             // data-aos-delay="1100"
           >
-            <a href="#">
+            <a href="/gallery/news/detail">
               Read More <i className="fa-solid fa-arrow-right"></i>
             </a>
           </div>

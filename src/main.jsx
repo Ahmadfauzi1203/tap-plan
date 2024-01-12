@@ -16,6 +16,8 @@ import "./assets/dist/css/subpage/Founders.css";
 import "./assets/dist/css/subpage/Dna.css";
 import "./assets/dist/css/subpage/Product.css";
 import "./assets/dist/css/subpage/Agritech.css";
+import "./assets/dist/css/subpage/News.css";
+import "./assets/dist/css/subpage/Video.css";
 
 import "animate.css";
 import AOS from "aos";

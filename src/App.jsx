@@ -17,6 +17,8 @@ import ProductPage from "./pages/subpages/ProductPage";
 import TechinfoPage from "./pages/subpages/TechinfoPage";
 import PrecisionPage from "./pages/subpages/PrecisionPage";
 import NewsPage from "./pages/NewsPage";
+import VideoPage from "./pages/VideoPage";
+import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path="/operational/map" Component={MapPage} />
         <Route path="/operational/product" Component={ProductPage} />
         <Route path="/gallery/news" Component={NewsPage} />
+        <Route path="/gallery/news/detail" Component={DetailPage} />
+        <Route path="/gallery/video" Component={VideoPage} />
 
         <Route path="/investor/annual-report" Component={AnnualReportPage} />
         <Route
