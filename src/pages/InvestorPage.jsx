@@ -1,5 +1,4 @@
 import React from "react";
-import TradingComponent from "../components/TradingComponents";
 import NewsComponent from "../components/NewsComponent";
 import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 

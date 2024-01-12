@@ -98,7 +98,7 @@ const NavbarComponent = () => {
               </div>
             </li>
             <li>
-              <a href="/sustainability" className="link desktop-item">
+              <a href="#" className="link desktop-item">
                 Sustainability <i className="fa-solid fa-caret-down"></i>
               </a>
               <input
@@ -113,7 +113,7 @@ const NavbarComponent = () => {
                 <div className="row">
                   <div className="col-lg-3">
                     <header>
-                      <i class="fa-solid fa-hand-fist me-2"></i>Commitment
+                      <i className="fa-solid fa-hand-fist me-2"></i>Commitment
                     </header>
                     <ul className="mega-links">
                       <li>
@@ -129,7 +129,7 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-6 policy">
                     <header>
-                      <i class="fa-solid fa-file-shield me-2"></i>Policy
+                      <i className="fa-solid fa-file-shield me-2"></i>Policy
                     </header>
                     <div className="wrapper">
                       <ul>
@@ -169,7 +169,7 @@ const NavbarComponent = () => {
                   </div>
                   <div className="col-lg-3">
                     <header>
-                      <i class="fa-solid fa-file-circle-question me-2"></i>
+                      <i className="fa-solid fa-file-circle-question me-2"></i>
                       Grievance
                     </header>
                     <ul className="mega-links">
@@ -188,7 +188,7 @@ const NavbarComponent = () => {
               </div>
             </li>
             <li>
-              <a href="/operational" className="link desktop-item">
+              <a href="#" className="link desktop-item">
                 Operational <i className="fa-solid fa-caret-down"></i>
               </a>
               <input
@@ -277,7 +277,7 @@ const NavbarComponent = () => {
               </div>
             </li>
             <li>
-              <a href="/agritech" className="link desktop-item">
+              <a href="#" className="link desktop-item">
                 Agritech <i className="fa-solid fa-caret-down"></i>
               </a>
               <input type="checkbox" id="showAgritech" name="showAgritech" />
@@ -286,14 +286,20 @@ const NavbarComponent = () => {
               </label>
               <ul className="drop-menu agritech">
                 <li>
-                  <a href="#" className="d-flex align-items-baseline gap-2 ">
+                  <a
+                    href="/agritech/technology-information"
+                    className="d-flex align-items-baseline gap-2 "
+                  >
                     <i className="fa-solid fa-computer"></i>
                     <p>Information Technology</p>
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="d-flex align-items-baseline gap-2">
-                    <i class="fa-solid fa-leaf"></i>
+                  <a
+                    href="/agritech/precision-agriculture"
+                    className="d-flex align-items-baseline gap-2"
+                  >
+                    <i className="fa-solid fa-leaf"></i>
                     <p>Precision Agriculture</p>
                   </a>
                 </li>
@@ -314,7 +320,7 @@ const NavbarComponent = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="gallery/press">
+                  <a href="/gallery/press">
                     <i className="fa-solid fa-camera"></i> <p>Press Release</p>
                   </a>
                 </li>
